@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="panel panel--status">
+        Status: <span id="connection-status"></span>
+    </div>
+    <div class="panel-group">
+        <div class="panel panel--stat" id="yes-votes">
+            <h2 class="panel__title">Yes</h2>
+            <div class="panel__stat stat stat--last-minute">
+                <span class="stat__label">Last minute:</span>
+                <span class="stat__value">0</span>
+            </div>
+            <div class="panel__stat stat stat--last-hour">
+                <span class="stat__label">Last hour:</span>
+                <span class="stat__value">0</span>
+            </div>
+            <div class="panel__stat stat stat--last-day">
+                <span class="stat__label">Last day:</span>
+                <span class="stat__value">0</span>
+            </div>
+            <div class="panel__chart"></div>
+        </div>
+
+
+
+        <div class="panel panel--stat" id="maybe-votes">
+            <h2 class="panel__title">Maybe</h2>
+            <div class="panel__stat stat stat--last-minute">
+                <span class="stat__label">Last minute:</span>
+                <span class="stat__value">0</span>
+            </div>
+            <div class="panel__stat stat stat--last-hour">
+                <span class="stat__label">Last hour:</span>
+                <span class="stat__value">0</span>
+            </div>
+            <div class="panel__stat stat stat--last-day">
+                <span class="stat__label">Last day:</span>
+                <span class="stat__value">0</span>
+            </div>
+            <div class="panel__chart"></div>
+        </div>
+
+        <div class="panel panel--stat" id="no-votes">
+            <h2 class="panel__title">No</h2>
+            <div class="stats">
+                <div class="panel__stat stat stat--last-minute">
+                    <span class="stat__label">Last minute:</span>
+                    <span class="stat__value">0</span>
+                </div>
+                <div class="panel__stat stat stat--last-hour">
+                    <span class="stat__label">Last hour:</span>
+                    <span class="stat__value">0</span>
+                </div>
+                <div class="panel__stat stat stat--last-day">
+                    <span class="stat__label">Last day:</span>
+                    <span class="stat__value">0</span>
+                </div>
+            </div>
+            <div class="panel__chart"></div>
+        </div>
+     </div>
+           
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="app.js"></script>
+</body>
+</html>

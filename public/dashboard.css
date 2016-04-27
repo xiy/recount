@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: 3vmin/1.5 Arial;
+    background: #fff;
+}
+
+.panel {
+    margin: 15px;
+    padding: 15px;
+    border: 6px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background: #ddd;
+}
+.panel__title {
+    margin:0 0 15px 0;
+    color: rgba(0,0,0,.4);
+}
+.panel__chart {
+    position: relative;
+    margin-top:20px;
+    background:#fff;
+    padding:30px 15px 15px 15px;
+}
+.panel--connected {
+    background: #7d7;
+}
+.panel-group {
+    display: flex;
+    width: 100%;
+}
+
+.panel-group .panel {
+    flex: 1;
+}
+
+.stat {
+    padding:5px 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+.stat + .stat {
+    border-top: none;
+}
+.stat__label {
+    flex: 1;
+}
+.stat__value {
+    font-weight: bold;
+}
+
+#yes-votes {
+    background: #dfc;
+}
+
+#no-votes {
+    background: #fdd;
+}
